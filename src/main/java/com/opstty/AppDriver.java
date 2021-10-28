@@ -9,6 +9,7 @@ public class AppDriver {
         ProgramDriver programDriver = new ProgramDriver();
 
         try {
+            //hello
             programDriver.addClass("wordcount", WordCount.class,
                     "A map/reduce program that counts the words in the input files.");
 
